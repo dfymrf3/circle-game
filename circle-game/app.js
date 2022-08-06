@@ -11,7 +11,6 @@ startBtn.addEventListener('click', (event) => {
 event.preventDefault()
 screens[0].classList.add('up')
 })
-
 timelist.addEventListener('click',event =>
  {
         if (event.target.classList.contains('time-btn')) {
